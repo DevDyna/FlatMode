@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "No furnace require?!?"
+        },
+        "description": {
+            "text": "Zombie on fire randomly if killed by player can drop baked potatos"
+        },
+        "icon": {
+            "item": "minecraft:baked_potato"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "baketpotato": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:baked_potato"]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "data:overworld/1/rottenflesh"
+}

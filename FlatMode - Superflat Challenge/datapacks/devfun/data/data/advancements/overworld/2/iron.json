@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Iron Age",
+            "color": "gray"
+        },
+        "description": {
+            "text": "Zombie randomly if killed by player can drop iron ingots!!"
+        },
+        "icon": {
+            "item": "minecraft:iron_ingot"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:iron_ingot"]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "data:overworld/1/rottenflesh"
+}

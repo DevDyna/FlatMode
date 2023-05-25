@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Underwater green"
+        },
+        "description": {
+            "text": "A wandering trader can sell cactus"
+        },
+        "icon": {
+            "item": "minecraft:kelp"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "kelp": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:kelp"]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "data:overworld/8/emerald"
+}

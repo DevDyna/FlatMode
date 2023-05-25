@@ -1,0 +1,37 @@
+{
+    "display": {
+        "title": {
+            "text": "Food of all days"
+        },
+        "description": {
+            "text": "Rotten flesh is one"
+        },
+        "icon": {
+            "item": "minecraft:rotten_flesh"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+  "requirements": [
+    [
+      "rottenflesh"
+    ]
+  ],
+    "criteria": {
+        "rottenflesh": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rotten_flesh"
+            ]
+          }
+        ]
+            }
+        }
+    },
+    "parent": "data:root"
+}

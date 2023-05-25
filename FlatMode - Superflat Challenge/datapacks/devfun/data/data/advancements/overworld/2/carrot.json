@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Another crop Carrot edition"
+        },
+        "description": {
+            "text": "Zombie randomly if killed by player can drop carrots"
+        },
+        "icon": {
+            "item": "minecraft:carrot"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "carrot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:carrot"]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "data:overworld/1/rottenflesh"
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Fancy blocks"
+        },
+        "description": {
+            "text": "Craft a copper block to...place on ground and go away"
+        },
+        "icon": {
+            "item": "minecraft:copper_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "copperblock": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:copper_block"
+            }
+        }
+    },
+    "parent": "data:overworld/5/copper"
+}

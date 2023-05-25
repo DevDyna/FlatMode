@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Another green"
+        },
+        "description": {
+            "text": "A wandering trader can sell melon_seeds"
+        },
+        "icon": {
+            "item": "minecraft:melon_seeds"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "melon": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:melon_seeds"]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "data:overworld/8/emerald"
+}

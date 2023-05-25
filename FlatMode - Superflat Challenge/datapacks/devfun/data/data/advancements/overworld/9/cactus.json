@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Another type of plant"
+        },
+        "description": {
+            "text": "A wandering trader can sell cactus"
+        },
+        "icon": {
+            "item": "minecraft:cactus"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cactus": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:cactus"]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "data:overworld/8/emerald"
+}

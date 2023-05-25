@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Repopulation"
+        },
+        "description": {
+            "text": "Use wool and planks to make beds or buy from shepherds and place down with a bunch of foods to breed your villagers"
+        },
+        "icon": {
+            "item": "minecraft:white_bed"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bed": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "beds"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "data:overworld/9/sapling"
+}
