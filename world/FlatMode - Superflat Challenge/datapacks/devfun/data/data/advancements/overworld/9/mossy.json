@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Mossy"
+        },
+        "description": {
+            "text": "A wandering trader can sell moss block"
+        },
+        "icon": {
+            "item": "minecraft:moss_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "moss": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:moss_block"]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "data:overworld/8/emerald"
+}

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Heavy progress"
+        },
+        "description": {
+            "text": "Kill iron golems and use iron ingots to make a anvil"
+        },
+        "icon": {
+            "item": "minecraft:anvil"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "anvil": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:anvil"]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "data:overworld/10/bed"
+}

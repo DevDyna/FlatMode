@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Fishing time"
+        },
+        "description": {
+            "text": "Make a fishing rod and catch a fish on water"
+        },
+        "icon": {
+            "item": "minecraft:fishing_rod"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "fishingrod": {
+            "trigger": "minecraft:fishing_rod_hooked"
+        }
+    },
+    "parent": "data:overworld/4/bucket"
+}

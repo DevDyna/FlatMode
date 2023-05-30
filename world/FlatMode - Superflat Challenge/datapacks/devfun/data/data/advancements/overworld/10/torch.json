@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "No more mobs"
+        },
+        "description": {
+            "text": "A fisherman can sell campfire , if you break them you can obtain charcoal to prevent spawn of mobs!"
+        },
+        "icon": {
+            "item": "minecraft:torch"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "torch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:torch"]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "data:overworld/9/sapling"
+}

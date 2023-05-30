@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Infinite water strategy"
+        },
+        "description": {
+            "text": "Dig down 2 blocks , place water on top and bone meal on bottom you can duplicate water! Or obtain another bucket of water!"
+        },
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bucket": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:water_bucket"]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "data:overworld/3/cauldron"
+}

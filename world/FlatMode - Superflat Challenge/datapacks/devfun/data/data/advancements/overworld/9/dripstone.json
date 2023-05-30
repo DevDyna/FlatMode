@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Letal points"
+        },
+        "description": {
+            "text": "A wandering trader can sell pointed dripstone"
+        },
+        "icon": {
+            "item": "minecraft:pointed_dripstone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dripstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:pointed_dripstone"]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "data:overworld/8/emerald"
+}
