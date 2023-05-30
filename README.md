@@ -1,4 +1,4 @@
-# FlatMode
+# FlatMode - Superflat Challenge
 
 This map is inspired from video of Yeah Jaron (100 days on a superflat world) but with many changes , twist and more progress on game by me
 
