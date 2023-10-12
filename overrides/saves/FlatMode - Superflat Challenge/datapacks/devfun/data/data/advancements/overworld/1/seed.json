@@ -1,0 +1,32 @@
+{
+	    "display": {
+        "title": {
+            "text": "Farming time"
+        },
+        "description": {
+            "text": "Using bone meal on grass you can obtain seeds and flowers"
+        },
+        "icon": {
+            "item": "minecraft:wheat_seeds"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+	"parent": "data:root",
+	"criteria": {
+		"seed": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:wheat_seeds"
+						]
+					}
+				]
+			}
+		}
+	}
+}

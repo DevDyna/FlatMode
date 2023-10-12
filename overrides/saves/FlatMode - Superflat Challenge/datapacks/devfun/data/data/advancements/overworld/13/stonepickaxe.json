@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Stone pickaxe Challenge"
+        },
+        "description": {
+            "text": "Villagers when you have hero of the village , can drop items , one of them is a stone pickaxe"
+        },
+        "icon": {
+            "item": "minecraft:stone_pickaxe"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "stonepickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:stone_pickaxe"]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "data:overworld/12/totem"
+}

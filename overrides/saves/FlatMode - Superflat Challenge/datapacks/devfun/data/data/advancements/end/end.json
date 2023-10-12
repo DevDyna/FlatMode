@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_head"
+		},
+		"title": "Time to stop!",
+		"description": "Drop a netherstar on top of a netherite block (all on nether dimension) and look somewhere below you!",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "data:nether/4/star",
+	"criteria": {
+		"the_end": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"from": "minecraft:the_nether",
+				"to": "minecraft:the_end"
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Not another stone pickaxe"
+        },
+        "description": {
+            "text": "Trade to obtain a diamond pickaxe"
+        },
+        "icon": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "diamondpickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:diamond_pickaxe"]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "data:overworld/10/bed"
+}

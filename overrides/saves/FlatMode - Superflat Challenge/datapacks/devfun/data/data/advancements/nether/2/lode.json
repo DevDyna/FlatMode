@@ -1,0 +1,34 @@
+{
+    "display": {
+        "title": {
+            "text": "Lodestone"
+        },
+        "description": {
+            "text": "Craft a lodestone"
+        },
+        "icon": {
+            "item": "minecraft:lodestone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "lodestone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "item": "minecraft:lodestone"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "data:nether/1/debris"
+}
