@@ -1,0 +1,2 @@
+# start raining
+weather rain
